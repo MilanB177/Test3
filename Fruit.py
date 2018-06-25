@@ -1,0 +1,13 @@
+fruits = ["pear", "banana", "cherry", "orange"]
+print(fruits)
+fruits.append("seafruit")
+fruits.insert(0, "guava")
+print(fruits)
+fruits.remove("cherry")
+print(fruits)
+fruits.sort()
+fruits.reverse()
+print(fruits)
+print(fruits[3])
+fruits.append("guava")
+fruits.count("guava")
